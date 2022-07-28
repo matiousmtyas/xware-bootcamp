@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="test">
+        <label for="one">enter your name</label>
+        <input type="text" name="text" id="one">
+        <br> <br>
+        <label for="two">enter password</label>
+        <input type="password" name="pass" id="two">
+        <section>
+            <h3>what is your fav sport?</h3>
+            <input list="hoopy">
+            <datalist id="hoopy">
+                <option value="football"></option>
+                <option value="basket"></option>
+                <option value="voley"></option>
+                <option value="handball"></option>
+            </datalist>
+        </section>
+        <h3>select what is fav fruit</h3>
+        <select name="sele" id="type">
+            <option value="banana">banana</option>
+            <option value="apple">apple</option>
+            <option value="orange">orange</option>
+        </select>
+        <br>
+        <br>
+             <h3>select the color love it</h3>
+             <input type="checkbox" name="check" id="box">
+             <label for="box">red</label>
+             <br>
+             <input type="checkbox" name="check" id="box">
+             <label for="box">green</label>
+<br>
+        <h3>what is your type ?</h3>
+        <input type="radio" name="type" id="aa">
+        <label for="male">male</label>
+        <input type="radio" name="type" id="obb">
+        <label for="female">female</label>
+
+        <br>
+        <h3>speack your self</h3>
+        <textarea name="area" id="cc" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="sup">
+
+        
+    </form>
+    
+</body>
+</html>

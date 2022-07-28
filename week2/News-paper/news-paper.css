@@ -1,0 +1,210 @@
+body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        background-color: #eee;
+}
+
+ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.page {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(10 , 1fr);
+    grid-template-rows:(70px 300px 150px auto );
+    grid-template-areas: "logo head head head head head head head head head " 
+                         "sec sec sec sec sec sec sec sec sec sec" 
+                          "asid asid asid asid asid asid asid asid asid asid"
+                          "foot foot foot foot foot foot foot foot foot foot"
+                          "add add add add add add add add add add";
+}
+
+img {
+    grid-area: logo;
+    height: 80px;
+    width: 200px;
+}
+
+nav {
+    grid-area: head;
+    background-color: darkgrey;
+    height: 80px;
+    text-align: center;
+}
+
+section {
+    grid-area: sec ;
+    border: 2px solid black;
+    width: 800px;
+    margin-left: 600px;
+    height: 200px;
+    margin-top: 40px;
+    background-image: url(e0396ebef4a3f4eeba1d08728ddb7478.png);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat;
+    padding: 15px;
+
+}
+ section h3
+ {
+    color: rgb(1, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+section h2
+ {
+    color: rgb(9, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+section p
+ {
+    color: rgb(3, 0, 0);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+button{
+    height: 50px;
+    width: 100px;
+    font-weight: bold;
+    transition: width 2s;
+}
+button:hover {
+    width: 150px;
+}
+
+aside{
+    grid-area: asid;
+}
+aside div {
+    border-left: 2px red solid;
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+    margin: 70px;
+    text-align: center;
+    padding: 50px;
+    height: 150px;
+    transition: height 2s;
+}
+
+.one {
+    background-image: url(download.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 445;
+    height: 190;
+}
+
+.two {
+    background-image: url(images.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 445;
+    height: 190;
+}
+.two h3  {
+    color: white;
+
+}
+
+.two p  {
+    color: white;
+
+}
+
+.three {
+    background-image: url(real-madrid.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 445;
+    height: 190;
+}
+
+.one:hover {
+    height: 250px;
+}
+
+.two:hover {
+    height: 250px;
+}
+
+.three:hover {
+    height: 250px;
+}
+
+footer {
+    grid-area: foot;
+}
+
+footer div {
+    border-left: 2px red solid;
+    border-right: 2px red solid;
+
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+    margin: 70px;
+    text-align: center;
+    padding: 50px;
+ 
+}
+
+.fo {
+    grid-area: add;
+}
+
+.fo div {
+    border-left: 2px red solid;
+    border-right: 2px red solid;
+
+    border-radius: 10px;
+    width: fit-content;
+    display: inline-block;
+    margin: 70px;
+    text-align: center;
+    padding: 50px;
+}
+
+.one1{
+    height: fit-content;
+}
+
+.two1{
+    height: fit-content;
+}
+
+.four, 
+.five,
+ .sex{
+    width: 550px;
+    height: 100px;
+
+}
+
+.sex{
+    margin-left: 500px;
+}
+
+.four{
+    background-image: url(ww.jpg);
+    background-position: left top;
+     background-repeat: no-repeat;
+}
+
+.five{
+    background-image: url(aa.jpg);
+    background-position: right bottom, left top;
+     background-repeat: no-repeat;
+}
+.sex{
+    background-image: url(dd.jpg);
+    background-position: right bottom, left top;
+     background-repeat: no-repeat;
+}

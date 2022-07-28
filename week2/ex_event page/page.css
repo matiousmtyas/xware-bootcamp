@@ -1,0 +1,97 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #eee;
+}
+.nav{
+    background-color: rgb(106, 210, 9);
+    border-left: 5px solid rgb(200, 105, 105);
+    position: relative;
+    width: 100%;
+    height: 70px;
+}
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+li{
+    color: antiquewhite;
+    font-weight: 20px;
+    font-family: "Oswald" , sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 30px;
+}
+
+.mid img {
+    width: 60%;
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.mid{
+    height: 650px;
+    background-color: rgb(125, 153, 192);
+    margin: 5px;
+}
+
+.one {
+    border-right: red solid 2px;
+    width: 700px;
+    background-color: rgb(177, 216, 48);
+    height: 200px;
+    margin-left: 1000px;
+    margin-bottom: 500px;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.two img {
+    width: 60%;
+    height: 400px;
+    border-radius: 15px;
+    margin-left: 722px;
+}
+.two1 {
+    border-right: red solid 2px;
+    width: 700px;
+    background-color: rgb(37, 136, 26);
+    height: 200px;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+.two{
+    height: 650px;
+    background-color: rgb(152, 198, 197);
+    margin: 5px;
+}
+
+.three img {
+    width: 60%;
+    height: 400px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.three1{
+    border-right: red solid 2px;
+    width: 700px;
+    background-color:rgb(197, 48, 48);
+    height: 200px;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 1000px;
+    border-radius: 10px;
+}
+
